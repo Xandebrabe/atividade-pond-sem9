@@ -14,3 +14,11 @@ No meu ponto de vista, a solução ideal seria a implementação de uma pipeline
  - Avaliação do modelos com os novos dados: Testar os dados atualizados introduzindo-os no dataset do modelo, visando aumentar a acurácia.
 
  - Implementação do novo dataset em Prod: Caso a acurácia esteja mais alta e sem "concept drift", realizar a implementação dos dados atualizados em produção.
+
+## Conclusão
+
+A solução proposta visa manter o sistema constantemente atualizado, por meio de scripts rotineiros e pipelines automatizadas. Porém mesmo com a solução em prática, o ideal seria a presença de uma equipe de acompanhamento do modelo preditivo, sempre avaliando possíveis melhoras na acurácia. Apesar de toda a dificuldade e cuidados para manter o mdoelo sempre atualizado, são custos necessários para prezar pela qualidade da tecnologia, que pode ser decisiva em diversas empresas e setores que utilizam a mesma para diversas causas importantes. Como por exemplo, predições na área da saúde, construção civil, etc.
+
+## Referências Bibliográficas
+
+-Domingos, P. (2012). A few useful things to know about machine learning.
